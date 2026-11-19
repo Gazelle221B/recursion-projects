@@ -1,0 +1,37 @@
+[
+  {
+    "title": "RoboDKBridge",
+    "description": "Unity と RoboDK を TCP で接続し、6軸ロボットの関節同期、操作 HUD、衝突時の停止・復帰を実装したプロジェクト。",
+    "tags": "Unity, C#, RoboDK, Robotics"
+  },
+  {
+    "title": "UnityAndROS_Connection",
+    "description": "ROS-TCP-Connector と URDF Importer を使った Unity と ROS の連携。Pick and Place のサンプルを含む。",
+    "tags": "Unity, C#, ROS"
+  },
+  {
+    "title": "Quest3_MR",
+    "description": "Quest 3 向けの MR 作業支援アプリ。修士研究の MR 組立支援のテーマを発展させたもの。",
+    "tags": "Unity, C#, XR, Meta Quest"
+  },
+  {
+    "title": "Online Chat Messenger",
+    "description": "UDP リレーチャット（ステージ1）と、TCP でルーム作成・トークン発行を行い UDP で会話するチャットルーム（ステージ2）を Python で実装。",
+    "tags": "Python, UDP, TCP, Socket"
+  },
+  {
+    "title": "Video Compressor Service",
+    "description": "TCP で動画を受け取り、FFMPEG で圧縮・解像度変更・MP3 変換・GIF 作成を行うカスタムプロトコルのクライアントサーバサービス。",
+    "tags": "Python, TCP, FFMPEG"
+  },
+  {
+    "title": "Remote Procedure Call",
+    "description": "Python サーバの関数を Node.js クライアントから JSON over ソケットで呼び出す RPC システム。",
+    "tags": "Python, Node.js, JSON, Socket"
+  },
+  {
+    "title": "Tabita Landing Page",
+    "description": "タスク管理サービス Tabita のランディングページ。Tailwind CSS でレスポンシブに実装。",
+    "tags": "HTML, Tailwind CSS"
+  }
+]
