@@ -27,3 +27,8 @@ Project submissions for the Recursion (recursionist.io) courses.
 - `restaurant-chain-mockup/` — Restaurant chain mockup (FileConvertible classes) plus a customizable download extension
 - `markdown-to-html/` — Web app that converts Markdown to HTML (Monaco editor, display or download)
 - `plantuml-server/` — PlantUML text-to-diagram service (SVG / PNG / ASCII, cheat sheet, practice prompts)
+
+### course35-backend-design — Backend Design & Security Project (PHP)
+- `text-snippet-service/` — Pastebin-style snippet sharing (unique URLs, syntax highlighting, expiry with auto-deletion)
+- `image-hosting-service/` — Imgur-style image hosting (unique + delete URLs, view counter, per-IP rate limit, 30-day retention cleanup)
+- `imageboard/` — Anonymous thread-based image board (PostDAO pattern, self-referencing threads/replies, hashed image names with thumbnails, seeder)
