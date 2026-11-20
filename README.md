@@ -38,3 +38,6 @@ Project submissions for the Recursion (recursionist.io) courses.
 
 ### course36-react — React (Slack Clone)
 - `slack-clone/` — Slack-style team chat app (React + TypeScript + Vite, Redux Toolkit, Firebase Authentication with Google sign-in, Cloud Firestore for users / channels / messages with real-time updates, Material UI + Tailwind CSS). Firebase config is read from environment variables (see `.env.example`); set up your own Firebase project to run it.
+
+### course37-laravel — Laravel (Fitness Application - MVP)
+- `fitness-application-mvp/` — Fitness tracker MVP built with Laravel 11 + Breeze (PHP 8, MySQL in production / SQLite for local checks). Foods CRUD with policies and form requests, diary entries (UTC dates) with food and recipe items and total-calorie calculation, recipes composed of foods, exercise records with types and tags, weight entries, and private diary images served only to their owner. The assignment page has no URL registration field, so this repository itself is the submission record. Optional advanced features (deployment, Stripe/Cashier subscriptions, Reverb support chat) are not implemented.
