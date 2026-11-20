@@ -32,3 +32,6 @@ Project submissions for the Recursion (recursionist.io) courses.
 - `text-snippet-service/` — Pastebin-style snippet sharing (unique URLs, syntax highlighting, expiry with auto-deletion)
 - `image-hosting-service/` — Imgur-style image hosting (unique + delete URLs, view counter, per-IP rate limit, 30-day retention cleanup)
 - `imageboard/` — Anonymous thread-based image board (PostDAO pattern, self-referencing threads/replies, hashed image names with thumbnails, seeder)
+- `email-verification-system/` — Computer-parts app extension with signed-URL email verification (HMAC signature + expiry middleware, resend / change-email flows, PHPMailer-style mailer)
+- `social-networking-service/` — Twitter-like SNS on a small own framework (profiles, follows, ≤255-char posts, likes, nested replies, scheduled posts via cron, OpenSSL-encrypted DMs, notifications, Trending/Following timelines with infinite scroll, seeder)
+- `ecommerce-stripe/` — E-commerce webapp with Stripe sync (products created in Stripe and synced as drafts via signed webhooks, admin publish flow, cart, guest/member checkout, ratings, favorites, public wishlist, tracking numbers, buyer-only digital downloads; documented demo mode when no Stripe keys are set)
