@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    margin: 2em;
+}
+
+.user-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.user-card h3 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    max-width: 320px;
+}

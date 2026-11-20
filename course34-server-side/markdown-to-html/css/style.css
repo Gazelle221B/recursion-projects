@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+    margin: 2em;
+}
+
+.preview {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}

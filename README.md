@@ -20,3 +20,10 @@ Project submissions for the Recursion (recursionist.io) courses.
 
 ### course33-server-deployment — Server Deployment Project
 - `resume-website/` — Static resume / portfolio website (home, portfolio, resume pages; projects rendered from `data/projects.json`)
+
+### course34-server-side — Server Side Development Project (PHP)
+- `food-service-simulation/` — Restaurant order simulation with PHP OOP (FoodItem / Person / Restaurant, Invoice)
+- `user-lorem-ipsum/` — Random user generator with HTML / Markdown / JSON / text output and a downloadable form
+- `restaurant-chain-mockup/` — Restaurant chain mockup (FileConvertible classes) plus a customizable download extension
+- `markdown-to-html/` — Web app that converts Markdown to HTML (Monaco editor, display or download)
+- `plantuml-server/` — PlantUML text-to-diagram service (SVG / PNG / ASCII, cheat sheet, practice prompts)

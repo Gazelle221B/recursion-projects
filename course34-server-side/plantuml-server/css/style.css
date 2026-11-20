@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    margin: 2em;
+}
+
+.layout {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.editor-pane, .preview-pane {
+    flex: 1 1 420px;
+}
+
+textarea {
+    width: 100%;
+    font-family: monospace;
+}
+
+.prompt {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.pagination {
+    margin-top: 1em;
+}
