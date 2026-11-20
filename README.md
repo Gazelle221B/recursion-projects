@@ -35,3 +35,6 @@ Project submissions for the Recursion (recursionist.io) courses.
 - `email-verification-system/` — Computer-parts app extension with signed-URL email verification (HMAC signature + expiry middleware, resend / change-email flows, PHPMailer-style mailer)
 - `social-networking-service/` — Twitter-like SNS on a small own framework (profiles, follows, ≤255-char posts, likes, nested replies, scheduled posts via cron, OpenSSL-encrypted DMs, notifications, Trending/Following timelines with infinite scroll, seeder)
 - `ecommerce-stripe/` — E-commerce webapp with Stripe sync (products created in Stripe and synced as drafts via signed webhooks, admin publish flow, cart, guest/member checkout, ratings, favorites, public wishlist, tracking numbers, buyer-only digital downloads; documented demo mode when no Stripe keys are set)
+
+### course36-react — React (Slack Clone)
+- `slack-clone/` — Slack-style team chat app (React + TypeScript + Vite, Redux Toolkit, Firebase Authentication with Google sign-in, Cloud Firestore for users / channels / messages with real-time updates, Material UI + Tailwind CSS). Firebase config is read from environment variables (see `.env.example`); set up your own Firebase project to run it.
