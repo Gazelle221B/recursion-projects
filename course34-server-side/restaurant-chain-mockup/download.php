@@ -1,8 +1,14 @@
 <?php
 declare(strict_types=1);
 
-spl_autoload_extensions(".php");
-spl_autoload_register();
+spl_autoload_register(function (string $class): void {
+    $prefix = "RestaurantChain\\";
+    $relative = str_starts_with($class, $prefix) ? substr($class, strlen($prefix)) : $class;
+    $path = __DIR__ . "/" . str_replace("\\", "/", $relative) . ".php";
+    if (file_exists($path)) {
+        require_once $path;
+    }
+});
 
 use RestaurantChain\Models\RestaurantChain;
 
